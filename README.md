@@ -1,7 +1,7 @@
 # Ai_Fashion_detection
 AI Fashion Detection is a deep learning-based project designed to detect and classify clothing items in images. It also generates detailed descriptions (alt-text), including color and fashion category, making fashion content accessible to visually impaired users.
 
-## 🚀 Features
+## 🚀 Modules
 
 part_1: Basic Image Upload
 Create a webpage/interface where users can:
@@ -27,3 +27,9 @@ Accessibility Features
 - Create fashion descriptions for visually impaired users
 - Add voice output for results
 
+**Set the path to the model file**
+model = YOLOv8("best.pt")
+
+**Requirements**
+Make sure you have the following libraries installed:
+" pip install opencv-python torch numpy ultralytics scikit-learn fpdf pyttsx3 "
